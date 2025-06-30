@@ -257,6 +257,7 @@ section {
 }
 .mainscreen .btn {
   font-weight: 500;
+  padding: 1.111vw 2.222vw;
 }
 
 .info__content {
@@ -832,7 +833,11 @@ section {
     gap: 4.267vw;
   }
   .mainscreen .btn-block .btn {
-    width: 53.333vw;
+    width: 41.867vw;
+    padding: 2.933vw 6.4vw;
+  }
+  .mainscreen .btn-block .btn--light {
+    width: 48vw;
   }
   h2 {
     font-size: 6.133vw;
