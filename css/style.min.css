@@ -731,11 +731,10 @@ section {
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 0;
     height: 100vh;
     background: #fff;
     z-index: 999999;
-    transform: translateX(100%);
     visibility: hidden;
     opacity: 0;
     overflow-x: hidden;
@@ -761,11 +760,12 @@ section {
   .menu-open {
     visibility: visible;
     opacity: 1;
-    transform: translateX(0%);
+    width: 100%;
     transition: 0.5s linear;
   }
   .menu-open .header__list, .menu-open .btn {
     opacity: 1;
+    transition: 1s linear;
   }
   .burger {
     display: flex;
